@@ -6,8 +6,6 @@ ENV MONGO_USER='admin' \
      MONGO_PORT=27017 \
      PORT=8080
 
-LABEL version="1.1"
-
 EXPOSE 8080
 
 RUN mkdir -p /home/app
